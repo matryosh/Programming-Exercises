@@ -1,0 +1,13 @@
+num1 = int(input("What is the first number? " ))
+num2 = int(input("What is the second number? "))
+add = str(num1 + num2)
+subtract = str(num1 - num2)
+multiply = str(num1 * num2)
+divide = str(num1 // num2)
+num1 = str(num1)
+num2 = str(num2)
+
+print("{} + {} = {}".format(num1, num2, add))
+print("{} - {} = {}".format(num1, num2, subtract))
+print("{} * {} = {}".format(num1, num2, multiply))
+print("{} / {} = {}".format(num1, num2, divide))
